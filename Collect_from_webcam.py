@@ -67,8 +67,11 @@ def logging_csv(number, mode, landmark_list):
             writer.writerow([number, *landmark_list])
     return
 
+## se camera ao vivo (do proprio notebook, então código "0")
+#cap_device = 0
+## se arquivo de video, entao utilziar o diretório e o nome do arquivo
+cap_device = './videos/animado.mp4'
 
-cap_device = 0
 cap_width = 1920
 cap_height = 1080
 

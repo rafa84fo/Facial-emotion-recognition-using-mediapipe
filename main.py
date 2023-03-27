@@ -86,7 +86,11 @@ def draw_info_text(image, brect, facial_text):
 
     return image
 
-cap_device = 0
+## se camera ao vivo (do proprio notebook, então código "0")
+#cap_device = 0
+## se arquivo de video, entao utilziar o diretório e o nome do arquivo
+cap_device = './videos/explicativo.mp4'
+
 cap_width = 1920
 cap_height = 1080
 

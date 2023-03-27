@@ -62,7 +62,7 @@ def logging_csv(number, landmark_list):
     return
 
 
-root = "Your dataset dir"
+root = "./imagens"
 IMAGE_FILES = []
 category = ['Anger','Happy','Neutral','Sad','Surprise']
 for path, subdirs, files in os.walk(root):
